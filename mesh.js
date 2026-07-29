@@ -12,7 +12,7 @@ const path = new THREE.CatmullRomCurve3([
 const geometry = new THREE.TubeGeometry(path,100,5,30)
 
 const loader = new THREE.TextureLoader()
-const texture = loader.load('./管道纹理.webp')
+const texture = loader.load('./texture-road.webp')
 texture.wrapS = THREE.RepeatWrapping
 texture.colorSpace = THREE.SRGBColorSpace
 texture.repeat.x = 20
