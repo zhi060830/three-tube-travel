@@ -9,8 +9,8 @@
     </style>
 </head>
 <body>
-
-<script type="importmap">
+<!-- 本地使用没有梯子时 -->
+<!-- <script type="importmap">
 {
     "imports": {
         "three": "./node_modules/three/build/three.module.js",
@@ -19,7 +19,18 @@
        
     }
 }
-</script>
+</script> -->
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+            "lil-gui": "https://unpkg.com/lil-gui@0.19/dist/lil-gui.esm.min.js"
+        }
+    }
+    </script>
+    
 <!--  "lil-gui": "./node_modules/lil-gui/dist/lil-gui.esm.min.js" -->
 <script type="module" src="./index.js"></script>
 </body>
