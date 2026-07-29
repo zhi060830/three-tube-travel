@@ -5,7 +5,7 @@
 https://zhi060830.github.io/three-tube-travel/
 
 ## 操作说明
-按下 **键盘 ↑ ↓ 方向键** 控制镜头前进/后退，体验隧道穿越效果。
+按下 **键盘 ↑↓ 方向键** 控制镜头前进，体验隧道穿越效果。
 
 ## 技术栈
 - Three.js（CDN方式引入，无需本地node_modules）
